@@ -81,7 +81,7 @@ jobs:
           mvn sonar:sonar \
             -Dsonar.projectKey=hotstar \
             -Dsonar.host.url=$SONAR_HOST \
-            -Dsonar.login=$SONAR_LOGIN
+            -Dsonar.login=$SONAR_TOKEN
 
   deploy:
     runs-on: ubuntu-latest
